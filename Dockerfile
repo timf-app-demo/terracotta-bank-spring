@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8_server-jre_unlimited
+FROM anapsix/alpine-java:8u92b14_server-jre_unlimited
 
 # Not secure! In a production environment, use haveged
 RUN sed -i 's/securerandom.source=file:\/dev\/random/securerandom.source=file:\/dev\/urandom/g' /opt/jdk/jre/lib/security/java.security
