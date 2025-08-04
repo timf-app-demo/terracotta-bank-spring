@@ -58,5 +58,5 @@ dependencies {
 
 	jmh('org.openjdk.jmh:jmh-core:1.19')
 	jmh('org.openjdk.jmh:jmh-generator-annprocess:1.19')
-	jmh('org.apache.httpcomponents:httpclient:4.5')
+	jmh('org.apache.httpcomponents:httpclient:4.5.13')
 }
